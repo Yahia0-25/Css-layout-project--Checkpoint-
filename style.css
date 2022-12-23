@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+p{
+    text-align: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+
+.my-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: flex;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.column {
+    flex: 50%;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    width: 280px;
+    height: 280px;
+    background: #00b39b;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+h3{
+    text-align: center;
+    color: #00b39b;
+}
+#my-id{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-weight: 300;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.my-pre{
+    text-align: center;
+    margin-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.country{
+    width: 280px;
+    height: 280px;
+    background: #00b39b;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+} 
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+button{
+   background-color:rgb(119, 156, 227);
+   font-size: larger;
+   border-radius: 5px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+a{
+    background-color: rgb(0, 79, 157);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+    border-radius: 3px;
+}
+
